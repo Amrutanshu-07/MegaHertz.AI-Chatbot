@@ -9,10 +9,10 @@ API_KEY = os.getenv("API_KEY")
 GEMINI_URL = os.getenv("GEMINI_URL")
 
 if not API_KEY:
-    raise ValueError("❌ API_KEY not found in .env file")
+    raise ValueError(" API_KEY not found in .env file")
 
 if not GEMINI_URL:
-    raise ValueError("❌ GEMINI_URL not found in .env file")
+    raise ValueError(" GEMINI_URL not found in .env file")
 
 
 async def get_gemini_response(user_message: str) -> str:
@@ -32,6 +32,6 @@ async def get_gemini_response(user_message: str) -> str:
                 try:
                     return data["candidates"][0]["content"]["parts"][0]["text"]
                 except Exception:
-                    return "⚠️ No valid response from Gemini."
+                    return " No valid response from Gemini."
             else:
-                return f"❌ Error: {resp.status} - {await resp.text()}"
+                return f" Error: {resp.status} - {await resp.text()}"
