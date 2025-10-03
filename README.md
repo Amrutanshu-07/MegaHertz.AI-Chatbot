@@ -60,24 +60,35 @@ Chatbot/
 # Example Workflow
 
  1.Start the FastAPI backend
+ 
  2.Launch the Streamlit frontend
+ 
  3.Ask questions → AI responds via Gemini API
+ 
  4.Conversations are saved in chat_history.json
 
 # Requirements
 
 Python 3.9+
+
 Packages:
+
 fastapi
+
 uvicorn
+
 aiohttp
+
 python-dotenv
+
 streamlit
+
 requests
 
 # Notes
 
 1. .env file (with API key) is ignored in Git for security.
+
 2. chat_history.json is ignored to prevent pushing user data.
 
 
