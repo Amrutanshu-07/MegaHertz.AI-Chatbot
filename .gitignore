@@ -36,3 +36,6 @@ dist/
 # Jupyter
 .ipynb_checkpoints/
 
+# Chat history
+frontend/chat_history.json
+
