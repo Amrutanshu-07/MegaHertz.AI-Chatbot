@@ -14,20 +14,31 @@ eatures
 
 # Project Structure
 Chatbot/
-│── server/                 
+
+│── server/  
+
 │   │── app/
+
 │   │   │── __init__.py
-│   │   │── main.py         
-│   │   │── ai.py           
-│   │   │── schemas.py      
-│   │── .env                
+
+│   │   │── main.py 
+
+│   │   │── ai.py  
+
+│   │   │── schemas.py   
+
+│   │── .env     
+
 │   │── myvenv/             
 │
-│── frontend/               
-│   │── app.py              
+│── frontend/ 
+
+│   │── app.py
+
 │   │── requirements.txt    
 │
 │── .gitignore
+
 │── README.md
 
 # Setup Instructions
