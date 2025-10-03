@@ -12,34 +12,6 @@ eatures
 
 5) Dynamic UI → Chat messages update instantly
 
-# Project Structure
-Chatbot/
-
-│── server/  
-
-│   │── app/
-
-│   │   │── __init__.py
-
-│   │   │── main.py 
-
-│   │   │── ai.py  
-
-│   │   │── schemas.py   
-
-│   │── .env     
-
-│   │── myvenv/             
-│
-│── frontend/ 
-
-│   │── app.py
-
-│   │── requirements.txt    
-│
-│── .gitignore
-
-│── README.md
 
 # Setup Instructions
 1. Clone the Repository
